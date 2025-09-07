@@ -1,0 +1,19 @@
+Understanding FastAPI, REST, and RESTful APIs
+
+1. FastAPI
+FastAPI is a modern Python web framework for building APIs quickly and efficiently. 
+It helps you define endpoints (like /users, /blogs) and handle HTTP requests (GET, POST, PUT, DELETE).
+
+2. REST
+REST (Representational State Transfer) is an architectural style for designing APIs.
+It uses HTTP methods, stateless communication, and resource-based URLs.
+
+3. RESTful API
+A RESTful API is an API that follows REST principles.
+For example:
+- GET /users → Retrieve all users
+- POST /users → Create a new user
+- GET /users/1 → Get user with ID 1
+- DELETE /users/1 → Delete user with ID 1
+
+In short: FastAPI builds APIs. If they follow REST rules, they are called RESTful APIs.
